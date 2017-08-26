@@ -1,4 +1,16 @@
+:toc:
+:toc-title: 目次
+:figure-caption: 図
+:table-caption: 表
+:source-highlighter: prettify
+:pagenums:
+:sectnums:
+:imagesdir: images
+
+
+
 = プロジェクトで利用する開発ツール
+
 
 == 1. IDE
 * Spring Tool Suite(ver.3.9.0)
@@ -6,9 +18,19 @@
 . https://spring.io/tools/sts からSTSをダウンロードする
 . ダウンロードしたものを解凍する
 
+
 == 2. BuildTools
+* gradle(ver.4.1)
+** 環境構築手順
+. javaのversionを確認する(7以上でないと上手くいかないと公式のページにある)
+. 以下のコマンドを実行
+....
+$ brew update && brew install gradle
+....
+
 
 == 3. DatabaseClient
+* MySQLWorkbench(ver.6.3)
 
 
 == 4. DocumentBuilder
@@ -23,28 +45,31 @@ $ ruby -e "$(curl -fsSL https://raw.gi thubusercontent.com/Homebrew/install/mast
 $ brew install asciidoc
 ....
 
+
+
 == 5. DocumentWrittingSoft
+image::redpen.jpg[]
 * Atom
 ** 環境構築手順
 . https://atom.io からAtomをダウンロード
 . ダウンロードしたものを解凍する
 
 ** Pluginの設定
-. redpen
-.. Atomを起動する
-.. 画面左上のAtom>Preferenceをクリック
-.. settingsの左のメニューからinstallをクリック
-.. redpenを検索する
-.. image: ../images/redpen.png[] +
+- redpen
+. Atomを起動する
+. 画面左上のAtom>Preferenceをクリック
+. settingsの左のメニューからinstallをクリック
+. redpenを検索する
+. image::redpen.jpg[] +
+   をインストールする
+- asciidsoc-preview
+. Atomを起動する
+. 画面左上のAtom>Preferenceをクリック
+. settingsの左のメニューからinstallをクリック
+. asciidoc-previewを検索する
+. image(上手く表示されないので保留) +
    をインストールする
 
 
-. asciidsoc-preview
-.. Atomを起動する
-.. 画面左上のAtom>Preferenceをクリック
-.. settingsの左のメニューからinstallをクリック
-.. asciidoc-previewを検索する
-
-
 == 6. DevelopmentEnvironment
-（Docker/Vagrant・VirtualBox）
+* Docker
