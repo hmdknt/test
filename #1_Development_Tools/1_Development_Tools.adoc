@@ -48,7 +48,6 @@ $ brew install asciidoc
 
 
 == 5. DocumentWrittingSoft
-image::redpen.jpg[]
 * Atom
 ** 環境構築手順
 . https://atom.io からAtomをダウンロード
@@ -60,14 +59,14 @@ image::redpen.jpg[]
 . 画面左上のAtom>Preferenceをクリック
 . settingsの左のメニューからinstallをクリック
 . redpenを検索する
-. image::redpen.jpg[] +
+. image:redpen.png[] +
    をインストールする
 - asciidsoc-preview
 . Atomを起動する
 . 画面左上のAtom>Preferenceをクリック
 . settingsの左のメニューからinstallをクリック
 . asciidoc-previewを検索する
-. image(上手く表示されないので保留) +
+. image:asciidoc-preview.jpg[] +
    をインストールする
 
 
