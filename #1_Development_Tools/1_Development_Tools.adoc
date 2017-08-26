@@ -1,0 +1,50 @@
+= プロジェクトで利用する開発ツール
+
+== 1. IDE
+* Spring Tool Suite(ver.3.9.0)
+** 環境構築手順
+. https://spring.io/tools/sts からSTSをダウンロードする
+. ダウンロードしたものを解凍する
+
+== 2. BuildTools
+
+== 3. DatabaseClient
+
+
+== 4. DocumentBuilder
+* Asciidoc
+** 環境構築手順
+. Terminalを開く
+. 以下の2つのコマンドを実行する
+
+....
+$ ruby -e "$(curl -fsSL https://raw.gi thubusercontent.com/Homebrew/install/master/install)" < /dev/null 2> /dev/null
+
+$ brew install asciidoc
+....
+
+== 5. DocumentWrittingSoft
+* Atom
+** 環境構築手順
+. https://atom.io からAtomをダウンロード
+. ダウンロードしたものを解凍する
+
+** Pluginの設定
+. redpen
+.. Atomを起動する
+.. 画面左上のAtom>Preferenceをクリック
+.. settingsの左のメニューからinstallをクリック
+.. redpenを検索する
+.. image: ../images/redpen.png[] +
+   をインストールする
+
+
+. asciidsoc-preview
+.. Atomを起動する
+.. 画面左上のAtom>Preferenceをクリック
+.. settingsの左のメニューからinstallをクリック
+.. asciidoc-previewを検索する
+
+
+== 6. DevelopmentEnvironment
+（Docker/Vagrant・VirtualBox）
