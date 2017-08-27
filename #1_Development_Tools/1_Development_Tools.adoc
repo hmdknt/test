@@ -1,10 +1,7 @@
 :toc:
-:toc-title: 目次
 :figure-caption: 図
 :table-caption: 表
 :source-highlighter: prettify
-:pagenums:
-:sectnums:
 :imagesdir: images
 
 
