@@ -18,7 +18,7 @@
 == BuildTools
 * gradle(ver.4.1)
 ** 環境構築手順
-. javaのversionを確認する(7以上でないと上手くいかないと公式のページにある)
+. javaのversionを確認する(7以上でないと上手くいかないと公式のページに書いてあった)
 . 以下のコマンドを実行
 ....
 $ brew update && brew install gradle
@@ -50,14 +50,14 @@ $ brew install asciidoc
 . ダウンロードしたものを解凍する
 
 ** Pluginの設定
-- redpen
+- redpen(文法間違いをなくすために入れる)
 . Atomを起動する
 . 画面左上のAtom>Preferenceをクリック
 . settingsの左のメニューからinstallをクリック
 . redpenを検索する
 . image:redpen.jpg[] +
    をインストールする
-- asciidsoc-preview
+- asciidsoc-preview(shift+command+Aでプレビューが見れる)
 . Atomを起動する
 . 画面左上のAtom>Preferenceをクリック
 . settingsの左のメニューからinstallをクリック
